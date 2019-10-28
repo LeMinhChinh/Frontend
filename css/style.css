@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 85px;
+	background-color:#385898;
+	width: 100%;
+	overflow: hidden;
+}
+.container h1{
+	color:white;
+	padding: 25px 0px 0px 327px;
+	font-weight: 650;
+	font-size: 37px;
+}
+ div.login{
+    height: 90px;
+    width:50%;
+    float: left;
+}
+div.login input{
+	width:150px;
+	height: 22px;
+	border:1px solid black;
+}
+div.email p,
+div.password p
+{
+	color:white;
+	font-size:13px;
+	height: 20px;
+	padding-top: 14px;
+}
+ div.email{
+	float: left;
+	margin-left: 80px;
+}
+ div.password{
+    float: left;
+    margin-left: 10px;
+}
+ a{
+	color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+a:hover{
+	text-decoration: underline;
+	color: #9cb4d8;
+}
+div.submit{
+    color: white;
+    float: left;
+    margin-top: 37px;
+	margin-left: 10px;
+}
+div.submit button{
+    color: white;
+	background-color: rgb(72, 97, 179);
+	border:1px solid rgb(40, 64, 139);
+	font-weight: 600;
+}
+div.submit button:hover{
+    background-color: #385898;
+}
+.content{
+	width: 100%;
+	height: 603px;
+	background-image: radial-gradient(white, #D3D8E8);
+    background: -webkit-linear-gradient(white, #D3D8E8);
+    background: -moz-linear-gradient(white, #D3D8E8);
+    background: -ms-linear-gradient(white, #D3D8E8);
+    background: -o-linear-gradient(white, #D3D8E8);
+	overflow: hidden;
+}
+.content p{
+	margin-left: 55px;
+	width: 450px;
+	color: #0e385f;
+	font-size: 20px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+.content h2{
+	margin-top: 25px;
+	font-weight: 600px;
+	margin-left: 70px;
+	font-size: 36px;
+}
+.content h5{
+	margin-top: 10px;
+	margin-left: 70px;
+	font-size: 19px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.content input{
+	margin-top: 15px;
+	margin-left: 70px;
+	border-radius: 5px;
+    border: solid 1px #bdc7d8;
+    width: 193px;
+    height: 40px;
+    padding: 15px;
+    font-size: 20px;
+}
+.content a{
+	margin-left: 5px;
+	font-size: 11px;
+	color:#385898;
+}
+.sex input{
+
+	margin-top: 10px;
+	width: 15px;
+}
+.sex label{
+	margin-top: 20px;
+    font-size: 18px;
+    color: #1d2129;
+}
+.infor p{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 315px;
+    color: #777;
+    font-size: 11px;
+}
+.register button{
+	width: 193px;
+    width: 193px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    font-weight: bold;
+    color: white;
+    background-color: #578843;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.gioithieu p{
+	margin-left: 60px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #666;
+}
+.menu ul{
+	height: 0px;
+	margin-top: 5px;
+	list-style-type: none;
+	float: left;
+}
+.menu ul li {
+	float: left;
+	margin-top: 20px;
+}
+
+.menu ul li a{
+	font-weight: 500;
+	color: #385898;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.copyright p{
+	margin-top: 70px;
+	margin-left: -505px;
+	float: left;
+	font-size: 11px;
+	color: #737373;
+}
